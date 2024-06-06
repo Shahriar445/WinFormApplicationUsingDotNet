@@ -62,5 +62,9 @@ namespace WindowsFormsApp1.Connection_db
                 _SqlConnection.Close();
             }
         }
+
+
+
+
     }
 }
