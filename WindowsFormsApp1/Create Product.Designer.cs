@@ -85,6 +85,8 @@
             // inputproductname
             // 
             this.inputproductname.AccessibleName = "";
+            this.inputproductname.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
             this.inputproductname.Location = new System.Drawing.Point(352, 64);
             this.inputproductname.Name = "inputproductname";
             this.inputproductname.Size = new System.Drawing.Size(100, 20);
@@ -103,6 +105,8 @@
             // productQuantitya
             // 
             this.productQuantitya.AccessibleName = "";
+            this.productQuantitya.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
             this.productQuantitya.Location = new System.Drawing.Point(352, 105);
             this.productQuantitya.Name = "productQuantitya";
             this.productQuantitya.Size = new System.Drawing.Size(100, 20);
@@ -111,6 +115,11 @@
             // 
             // dataviewgrid
             // 
+            this.dataviewgrid.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.dataviewgrid.BackgroundColor = System.Drawing.SystemColors.ControlDark;
+            this.dataviewgrid.GridColor = System.Drawing.SystemColors.ButtonHighlight;
             this.dataviewgrid.Location = new System.Drawing.Point(476, 63);
             this.dataviewgrid.Name = "dataviewgrid";
             this.dataviewgrid.Size = new System.Drawing.Size(470, 249);

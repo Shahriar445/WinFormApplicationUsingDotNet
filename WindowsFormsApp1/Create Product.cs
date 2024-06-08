@@ -25,7 +25,7 @@ namespace WindowsFormsApp1
            
             _DefaultConnection = new DefaultConnection();
             InitializeComponent();
-            dataviewgrid.RowHeaderMouseDoubleClick += dataviewgrid_RowHeaderMouseDoubleClick;
+             // double click mouce 
 
         }
 
